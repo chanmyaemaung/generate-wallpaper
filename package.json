@@ -1,0 +1,27 @@
+{
+  "name": "create-wallpaper",
+  "version": "1.0.0",
+  "description": "Generate Wallerpaper",
+  "scripts": {
+    "build:css": "postcss ./style.css -o assets/css/app.css",
+    "watch:css": "postcss ./style.css -o assets/css/app.css -w"
+  },
+  "keywords": [
+    "wallpaper",
+    "css",
+    "postcss"
+  ],
+  "author": "Chen Lay <info@chanmyaemaung.ne>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.0",
+    "postcss-cli": "^10.1.0",
+    "postcss-custom-properties": "^13.1.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.3.2",
+    "postcss-selector-not": "^7.0.1",
+    "precss": "^4.0.0"
+  }
+}

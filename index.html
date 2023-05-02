@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Wallpaper</title>
+    <link rel="stylesheet" href="./assets/css/app.css" />
+  </head>
+  <body>
+    <table class="controls">
+      <tr>
+        <td>Width:</td>
+        <td><input type="number" class="input-width" value="1920" /> px</td>
+      </tr>
+
+      <tr>
+        <td>Height:</td>
+        <td><input type="number" class="input-height" value="1080" /> px</td>
+      </tr>
+
+      <tr>
+        <td>Linear Start Color:</td>
+        <td>
+          <input
+            type="color"
+            class="input-linear-start-color"
+            value="#00b3ff"
+          />
+          px
+        </td>
+      </tr>
+
+      <tr>
+        <td>Linear End Color:</td>
+        <td>
+          <input type="color" class="input-linear-end-color" value="#004a8f" />
+          px
+        </td>
+      </tr>
+
+      <tr>
+        <td>Radial Color:</td>
+        <td>
+          <input type="color" class="input-radial-color" value="#8c00ff" /> px
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button type="button" class="btn-generate-wallpaper">
+            Generate Wallpaper
+          </button>
+        </td>
+      </tr>
+    </table>
+
+    <canvas class="wallpaper" width="1920" height="1080"></canvas>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
